@@ -4559,3 +4559,109 @@ AssetImportParameters requested are different than current active one (requested
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 52231.643795 seconds.
+  path: Assets/RetroRunner Custom Assets/Fire Frog/Double Jump (32x32).png
+  artifactKey: Guid(9f2cb067de03d4027a8d85cc540fba69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RetroRunner Custom Assets/Fire Frog/Double Jump (32x32).png using Guid(9f2cb067de03d4027a8d85cc540fba69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b73f2902e69b9451fa314c88cfe40e77') in 0.154723 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000094 seconds.
+  path: Assets/RetroRunner Custom Assets/Fire Frog/Jump (32x32).png
+  artifactKey: Guid(744fe564453ea49a3a76a9cea5c04297) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RetroRunner Custom Assets/Fire Frog/Jump (32x32).png using Guid(744fe564453ea49a3a76a9cea5c04297) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2711bce86e1f4e0175893605251cf07f') in 0.009351 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/RetroRunner Custom Assets/Fire Frog/Wall Jump (32x32).png
+  artifactKey: Guid(5122c8997d38b40ce96168ca09499542) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RetroRunner Custom Assets/Fire Frog/Wall Jump (32x32).png using Guid(5122c8997d38b40ce96168ca09499542) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a671d057cbbc8edd1940f6fbd4110fd') in 0.010362 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/RetroRunner Custom Assets/Fire Frog/Idle (32x32).png
+  artifactKey: Guid(d7ff7e015c6b041a8898bd822825b325) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RetroRunner Custom Assets/Fire Frog/Idle (32x32).png using Guid(d7ff7e015c6b041a8898bd822825b325) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f53e0d709ae37f990251c37b0f990be') in 0.021093 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 25.504095 seconds.
+  path: Assets/RetroRunner Custom Assets/Water Frog/Double Jump (32x32).png
+  artifactKey: Guid(a83149e87e2764875b34546025992cd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RetroRunner Custom Assets/Water Frog/Double Jump (32x32).png using Guid(a83149e87e2764875b34546025992cd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41efd3edadbd2877380760a4dd2eff4b') in 0.014749 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000077 seconds.
+  path: Assets/RetroRunner Custom Assets/Water Frog/Jump (32x32).png
+  artifactKey: Guid(9e7ba6c05a57b4e279870e039794c0c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RetroRunner Custom Assets/Water Frog/Jump (32x32).png using Guid(9e7ba6c05a57b4e279870e039794c0c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a19ab303349be29c973043a776a27b1a') in 0.006508 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/RetroRunner Custom Assets/Water Frog/Idle (32x32).png
+  artifactKey: Guid(4e52c90d60b0a446b8e965216ab15cf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RetroRunner Custom Assets/Water Frog/Idle (32x32).png using Guid(4e52c90d60b0a446b8e965216ab15cf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb53e64bf85bdd8436368135c7995688') in 0.020054 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/RetroRunner Custom Assets/Water Frog/Wall Jump (32x32).png
+  artifactKey: Guid(8fbc9439e0d3e4a1c818924c4c500c7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RetroRunner Custom Assets/Water Frog/Wall Jump (32x32).png using Guid(8fbc9439e0d3e4a1c818924c4c500c7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '094dd6b7c690d3add8d387ddff5e098b') in 0.009429 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002105 seconds.
+Begin MonoManager ReloadAssembly
+Thread 0x16d8eb000 may have been prematurely finalized
+Symbol file LoadedFromMemory doesn't match image /Users/fredericosilva/Desktop/Faculdade/3Ano/2Semestre/G/RetroRunner/Retro Runner/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/fredericosilva/Desktop/Faculdade/3Ano/2Semestre/G/RetroRunner/Retro Runner/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.54 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.652 seconds
+Domain Reload Profiling:
+	ReloadAssembly (653ms)
+		BeginReloadAssembly (113ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (49ms)
+		EndReloadAssembly (482ms)
+			LoadAssemblies (49ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (183ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (35ms)
+			SetupLoadedEditorAssemblies (194ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (43ms)
+				ProcessInitializeOnLoadAttributes (125ms)
+				ProcessInitializeOnLoadMethodAttributes (20ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.70 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3732 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 28 unused Assets / (129.2 KB). Loaded Objects now: 4432.
+Memory consumption went from 156.7 MB to 156.5 MB.
+Total: 3.289042 ms (FindLiveObjects: 0.163583 ms CreateObjectMapping: 0.053584 ms MarkObjects: 2.950791 ms  DeleteObjects: 0.120667 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
