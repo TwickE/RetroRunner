@@ -5,8 +5,11 @@ using UnityEngine;
 public class Player1Movement : MonoBehaviour
 {
     private Rigidbody2D rb;
+    private BoxCollider2D coll;
     private SpriteRenderer sprite;
     private Animator anim;
+
+    [SerializeField] private LayerMask jumpableGround;
 
     private float dirX = 0f;
     [SerializeField] private float moveSpeed = 7f;
@@ -18,6 +21,7 @@ public class Player1Movement : MonoBehaviour
     private void Start()
     {
         rb = GetComponent<Rigidbody2D>();
+        coll = GetComponent<BoxCollider2D>();
         sprite = GetComponent<SpriteRenderer>();
         anim = GetComponent<Animator>();
     }
@@ -30,7 +34,7 @@ public class Player1Movement : MonoBehaviour
         rb.velocity = new Vector2(dirX * moveSpeed, rb.velocity.y);
 
         //Jumping
-        if(Input.GetButtonDown("JumpPlayer1")) {
+        if(Input.GetButtonDown("JumpPlayer1") && IsGrounded()) {
             rb.velocity = new Vector2(rb.velocity.x, jumpForce);
         }
 
@@ -43,31 +47,36 @@ public class Player1Movement : MonoBehaviour
     {
         MovementState state;
 
-        //Toggles the running animation
-        if(dirX > 0f)
+        if(dirX > 0f) //Toggles the running animation
         {
             state = MovementState.running;
             sprite.flipX = false;
         }
-        else if(dirX < 0f)
+        else if(dirX < 0f) //Toggles the running animation
         {
             state = MovementState.running;
             sprite.flipX = true;
         }
-        else
+        else //Toggles the idle animation
         {
             state = MovementState.idle;
         }
 
-        if(rb.velocity.y > .1f)
+        if(rb.velocity.y > .1f) //Toggles the jumping animation
         {
             state = MovementState.jumping;
         }
-        else if(rb.velocity.y < -.1f)
+        else if(rb.velocity.y < -.1f) //Toggles the falling animation
         {
             state = MovementState.falling;
         }
 
         anim.SetInteger("state", (int)state);
+    }
+
+    //Checks if the player is on the ground
+    private bool IsGrounded()
+    {
+        return Physics2D.BoxCast(coll.bounds.center, coll.bounds.size, 0f, Vector2.down, .1f, jumpableGround);
     }
 }
