@@ -220,6 +220,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 95be338cb44194925ac7a943d1b11786, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  maxCameraSize: 10
   player1: {fileID: 937853877}
   player2: {fileID: 1008768327}
   minCameraSize: 5
@@ -305,7 +306,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 937853875}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -4.51, y: -0.33, z: 0}
+  m_LocalPosition: {x: -5.33, y: -0.33, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
