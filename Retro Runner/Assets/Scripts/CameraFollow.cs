@@ -4,6 +4,9 @@ using UnityEngine;
 
 public class CameraFollow : MonoBehaviour
 {
+
+    public float maxCameraSize = 10f; // Maximum camera size
+    
     public Transform player1; // Reference to the first player's transform
     public Transform player2; // Reference to the second player's transform
 
@@ -31,6 +34,6 @@ public class CameraFollow : MonoBehaviour
 
         // Set the camera's position and size
         transform.position = Vector3.Lerp(transform.position, desiredPosition, Time.deltaTime * 10f);
-        mainCamera.orthographicSize = Mathf.Lerp(mainCamera.orthographicSize, Mathf.Max(desiredSize, minCameraSize), Time.deltaTime * 10f);
+        mainCamera.orthographicSize = Mathf.Lerp(mainCamera.orthographicSize, Mathf.Clamp(Mathf.Max(desiredSize, minCameraSize), minCameraSize, maxCameraSize), Time.deltaTime * 10f);
     }
 }
