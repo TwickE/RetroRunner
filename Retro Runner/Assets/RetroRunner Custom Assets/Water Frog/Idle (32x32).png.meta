@@ -1,40 +1,7 @@
 fileFormatVersion: 2
 guid: 4e52c90d60b0a446b8e965216ab15cf9
 TextureImporter:
-  internalIDToNameTable:
-  - first:
-      213: -6367560908665664636
-    second: Idle (32x32)_0
-  - first:
-      213: -6056987297122131021
-    second: Idle (32x32)_1
-  - first:
-      213: 8416797952724722639
-    second: Idle (32x32)_2
-  - first:
-      213: 4883129791460916795
-    second: Idle (32x32)_3
-  - first:
-      213: 4278371960119211202
-    second: Idle (32x32)_4
-  - first:
-      213: 8644832591467991550
-    second: Idle (32x32)_5
-  - first:
-      213: -7152759390613953277
-    second: Idle (32x32)_6
-  - first:
-      213: 6456874251884481089
-    second: Idle (32x32)_7
-  - first:
-      213: -2526832996998184344
-    second: Idle (32x32)_8
-  - first:
-      213: 4392827059107796345
-    second: Idle (32x32)_9
-  - first:
-      213: -1363835404106015672
-    second: Idle (32x32)_10
+  internalIDToNameTable: []
   externalObjects: {}
   serializedVersion: 12
   mipmaps:
@@ -95,8 +62,8 @@ TextureImporter:
   compressionQualitySet: 0
   textureFormatSet: 0
   ignorePngGamma: 0
-  applyGammaDecoding: 1
-  cookieLightType: 1
+  applyGammaDecoding: 0
+  cookieLightType: 0
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -115,7 +82,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 0
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -127,7 +94,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 0
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -139,7 +106,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 0
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -164,8 +131,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fdba417bda9db96418fec24b87dfcdb4
-      internalID: -6367560908665664636
+      spriteID: 08954315d7ff84eef8cdc9c04b5abd3d
+      internalID: 1161485930
       vertices: []
       indices: 
       edges: []
@@ -185,8 +152,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: dff2ac8bbbbbef045bce80b611bf86ea
-      internalID: -6056987297122131021
+      spriteID: a448333c6356343c3bb3114cdd8120b8
+      internalID: 788514742
       vertices: []
       indices: 
       edges: []
@@ -206,8 +173,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6abbb4e80f5cd914cbc4c652387f530d
-      internalID: 8416797952724722639
+      spriteID: e2e5903092149429d93662eca739bbba
+      internalID: -1245019412
       vertices: []
       indices: 
       edges: []
@@ -227,8 +194,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 03545ecd744bf9144a3520ccaa395173
-      internalID: 4883129791460916795
+      spriteID: fde2b1e5f38bf40bda79a72efd9f2f1a
+      internalID: 1786493250
       vertices: []
       indices: 
       edges: []
@@ -248,8 +215,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9dab0c7f6bce7d746999a6ee7b7e7a86
-      internalID: 4278371960119211202
+      spriteID: f84913048d12a4ec38c4fa1745ab6ea5
+      internalID: -264088072
       vertices: []
       indices: 
       edges: []
@@ -269,8 +236,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 08c1d51bd39cc084a8a46696b37c2c1a
-      internalID: 8644832591467991550
+      spriteID: 47ad082f9d1e84d8b9d103a9da3492b6
+      internalID: 1276356023
       vertices: []
       indices: 
       edges: []
@@ -290,8 +257,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2ebed70e71f4e0b4382382ef008a5569
-      internalID: -7152759390613953277
+      spriteID: 2c24a600aa3004973b9e55b783906800
+      internalID: 330225311
       vertices: []
       indices: 
       edges: []
@@ -311,8 +278,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 741320b45cd7f6e46af51b7f6082dffd
-      internalID: 6456874251884481089
+      spriteID: eb512eae449534a98a82263f83d06c3f
+      internalID: 439483538
       vertices: []
       indices: 
       edges: []
@@ -332,8 +299,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3fb80a1d7c646004cabe582d26f9282d
-      internalID: -2526832996998184344
+      spriteID: cf45ec7647d7146aebd045bea12afafe
+      internalID: -1884608588
       vertices: []
       indices: 
       edges: []
@@ -353,8 +320,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1d30c0f1cb4422f4b9056809c97e8e4c
-      internalID: 4392827059107796345
+      spriteID: 1f550209adb584ae48e0fe5e8728c218
+      internalID: -733905461
       vertices: []
       indices: 
       edges: []
@@ -374,8 +341,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1f696fef2f42a7e4f9e60ed5befacc9d
-      internalID: -1363835404106015672
+      spriteID: b6f40b2e013f3432689167f77219759f
+      internalID: 1671955414
       vertices: []
       indices: 
       edges: []
@@ -391,17 +358,17 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Idle (32x32)_0: -6367560908665664636
-      Idle (32x32)_1: -6056987297122131021
-      Idle (32x32)_10: -1363835404106015672
-      Idle (32x32)_2: 8416797952724722639
-      Idle (32x32)_3: 4883129791460916795
-      Idle (32x32)_4: 4278371960119211202
-      Idle (32x32)_5: 8644832591467991550
-      Idle (32x32)_6: -7152759390613953277
-      Idle (32x32)_7: 6456874251884481089
-      Idle (32x32)_8: -2526832996998184344
-      Idle (32x32)_9: 4392827059107796345
+      Idle (32x32)_0: 1161485930
+      Idle (32x32)_1: 788514742
+      Idle (32x32)_10: 1671955414
+      Idle (32x32)_2: -1245019412
+      Idle (32x32)_3: 1786493250
+      Idle (32x32)_4: -264088072
+      Idle (32x32)_5: 1276356023
+      Idle (32x32)_6: 330225311
+      Idle (32x32)_7: 439483538
+      Idle (32x32)_8: -1884608588
+      Idle (32x32)_9: -733905461
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
