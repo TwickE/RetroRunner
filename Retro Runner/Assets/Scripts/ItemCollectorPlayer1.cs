@@ -5,7 +5,7 @@ using UnityEngine.UI;
 
 public class ItemCollectorPlayer1 : MonoBehaviour
 {
-    private int coinCount = 0;
+    private int coinCount = 0; //Number of coins the plyer1 has
 
     [SerializeField] private Text coinsText;
 
@@ -13,9 +13,9 @@ public class ItemCollectorPlayer1 : MonoBehaviour
     {
         if(collision.gameObject.CompareTag("Coin"))
         {
-            Destroy(collision.gameObject);
-            coinCount++;
-            coinsText.text = "Coins Player 1: " + coinCount;
+            Destroy(collision.gameObject); //Destroys the coin
+            coinCount++; //Adds 1 to the coinCount
+            coinsText.text = "Coins Player 1: " + coinCount; //Updates the text
         }
     }
 }
