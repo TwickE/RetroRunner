@@ -16,4 +16,4 @@ Player 2:
 
 Features:
     - Colects coins and counts them for each player(top left corner)
-    - Both players can die by touching the spikes
+    - Both players can die by touching the spikes(Está a funcionar no unity, mas não no build, não conseguimos ainda descobrir o porquê)
