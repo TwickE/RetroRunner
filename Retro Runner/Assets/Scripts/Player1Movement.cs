@@ -8,7 +8,6 @@ public class Player1Movement : MonoBehaviour
     private BoxCollider2D coll;
     private SpriteRenderer sprite;
     private Animator anim;
-    /* public GameObject player2; */
 
     [SerializeField] private LayerMask jumpableGround;
 
@@ -17,9 +16,6 @@ public class Player1Movement : MonoBehaviour
     [SerializeField] private float jumpForce = 14f;
 
     private enum MovementState { idle, running, jumping, falling }
-
-    /* public float distanceBetweenPlayers = 0f;
-    public bool canMove = true; */
 
     // Start is called before the first frame update
     private void Start()
@@ -33,20 +29,6 @@ public class Player1Movement : MonoBehaviour
     // Update is called once per frame
     private void Update()
     {
-        
-        /* distanceBetweenPlayers = Mathf.Abs(transform.position[0] - player2.transform.position[0]);
-        Debug.Log(distanceBetweenPlayers); */
-
-        /* if(distanceBetweenPlayers > 10f)
-        {
-            Debug.Log("oi");
-            canMove = false;
-        }
-        else
-        {
-            canMove = true;
-        } */
-
         //Move left and right
         dirX = Input.GetAxisRaw("HorizontalPlayer1");
         rb.velocity = new Vector2(dirX * moveSpeed, rb.velocity.y);

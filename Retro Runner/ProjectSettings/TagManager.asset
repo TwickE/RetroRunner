@@ -6,6 +6,10 @@ TagManager:
   tags:
   - Coin
   - Trap
+  - Lava
+  - Player1
+  - Player2
+  - Water
   layers:
   - Default
   - TransparentFX

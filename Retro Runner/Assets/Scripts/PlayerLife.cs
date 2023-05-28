@@ -8,6 +8,8 @@ public class PlayerLife : MonoBehaviour
     private Rigidbody2D rb;
     private Animator anim;
 
+    [SerializeField] private bool isPlayer1;
+
     // Start is called before the first frame update
     private void Start()
     {
@@ -20,6 +22,20 @@ public class PlayerLife : MonoBehaviour
         if(collision.gameObject.CompareTag("Trap"))
         {
             Die();
+        }
+        if(collision.gameObject.CompareTag("Lava"))
+        {
+            if(!isPlayer1)
+            {
+                Die();
+            }
+        }
+        if(collision.gameObject.CompareTag("Water"))
+        {
+            if(isPlayer1)
+            {
+                Die();
+            }
         }
     }
 

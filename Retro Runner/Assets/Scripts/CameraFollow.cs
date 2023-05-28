@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class CameraFollow : MonoBehaviour
 {
-    public float maxCameraSize = 10f; // Maximum camera size
+    public float maxCameraSize = 20f; // Maximum camera size
     public Transform player1; // Reference to the first player's transform
     public Transform player2; // Reference to the second player's transform
 
