@@ -1406,7 +1406,7 @@ GameObject:
   - component: {fileID: 1003363463}
   - component: {fileID: 1003363462}
   - component: {fileID: 1003363465}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Water
   m_TagString: Water
   m_Icon: {fileID: 0}
@@ -21770,7 +21770,7 @@ GameObject:
   - component: {fileID: 1866663695}
   - component: {fileID: 1866663694}
   - component: {fileID: 1866663693}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Lava
   m_TagString: Lava
   m_Icon: {fileID: 0}

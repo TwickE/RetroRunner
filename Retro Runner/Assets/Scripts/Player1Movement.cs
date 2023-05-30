@@ -32,7 +32,6 @@ public class Player1Movement : MonoBehaviour
         //Move left and right
         dirX = Input.GetAxisRaw("HorizontalPlayer1");
         rb.velocity = new Vector2(dirX * moveSpeed, rb.velocity.y);
-        
 
         //Jumping
         if(Input.GetButtonDown("JumpPlayer1") && IsGrounded()) {

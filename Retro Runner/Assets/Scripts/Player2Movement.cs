@@ -47,27 +47,26 @@ public class Player2Movement : MonoBehaviour
     {
         MovementState state;
 
-        //Toggles the running animation
-        if(dirX > 0f)
+        if(dirX > 0f) //Toggles the running animation
         {
             state = MovementState.running;
             sprite.flipX = false;
         }
-        else if(dirX < 0f)
+        else if(dirX < 0f) //Toggles the running animation
         {
             state = MovementState.running;
             sprite.flipX = true;
         }
-        else
+        else //Toggles the idle animation
         {
             state = MovementState.idle;
         }
 
-        if(rb.velocity.y > .1f)
+        if(rb.velocity.y > .1f) //Toggles the jumping animation
         {
             state = MovementState.jumping;
         }
-        else if(rb.velocity.y < -.1f)
+        else if(rb.velocity.y < -.1f) //Toggles the falling animation
         {
             state = MovementState.falling;
         }
