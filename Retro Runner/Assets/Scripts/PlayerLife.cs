@@ -23,6 +23,10 @@ public class PlayerLife : MonoBehaviour
         {
             Die();
         }
+    }
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
         if(collision.gameObject.CompareTag("Lava"))
         {
             if(!isPlayer1)
