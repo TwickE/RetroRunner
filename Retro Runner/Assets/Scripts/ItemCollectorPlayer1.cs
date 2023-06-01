@@ -9,10 +9,13 @@ public class ItemCollectorPlayer1 : MonoBehaviour
 
     [SerializeField] private Text coinsText;
 
+    [SerializeField] private AudioSource collectionSoundEffect;
+
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if(collision.gameObject.CompareTag("Coin"))
         {
+            collectionSoundEffect.Play(); //Plays the collection sound effect
             Destroy(collision.gameObject); //Destroys the coin
             coinCount++; //Adds 1 to the coinCount
             coinsText.text = "Coins Player 1: " + coinCount; //Updates the text
