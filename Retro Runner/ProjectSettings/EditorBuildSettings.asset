@@ -5,16 +5,22 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 0
-    path: Assets/Pixel Adventure 1/Scenes/StartMenu.unity
-    guid: 894c112e6ae62a547867fa94bf5e488f
+  - enabled: 1
+    path: Assets/Scenes/Start Screen.unity
+    guid: 03218533857d64b0199a76ffa47bcaa8
   - enabled: 1
     path: Assets/Scenes/Level 1.unity
     guid: 2cda990e2423bbf4892e6590ba056729
-  - enabled: 0
-    path: Assets/Pixel Adventure 1/Scenes/End.unity
-    guid: 06732993028817e4abe3a28c0939fe6a
   - enabled: 1
     path: Assets/Scenes/Level 2.unity
     guid: 63a39d697757b4e7bb76182515e7ef9d
+  - enabled: 1
+    path: Assets/Scenes/End Screen.unity
+    guid: 9489904fc553f4310b362bc1b3896c71
+  - enabled: 0
+    path: Assets/Pixel Adventure 1/Scenes/StartMenu.unity
+    guid: 894c112e6ae62a547867fa94bf5e488f
+  - enabled: 0
+    path: Assets/Pixel Adventure 1/Scenes/End.unity
+    guid: 06732993028817e4abe3a28c0939fe6a
   m_configObjects: {}
