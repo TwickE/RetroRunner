@@ -18,7 +18,7 @@ public class ItemCollectorPlayer1 : MonoBehaviour
             collectionSoundEffect.Play(); //Plays the collection sound effect
             Destroy(collision.gameObject); //Destroys the coin
             coinCount++; //Adds 1 to the coinCount
-            coinsText.text = "Coins Player 1: " + coinCount; //Updates the text
+            coinsText.text = coinCount.ToString(); //Updates the text
         }
     }
 }
