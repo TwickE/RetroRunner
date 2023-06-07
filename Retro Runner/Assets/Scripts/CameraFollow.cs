@@ -4,13 +4,12 @@ using UnityEngine;
 
 public class CameraFollow : MonoBehaviour
 {
-    public float maxCameraSize = 20f; // Maximum camera size
+    public float maxCameraSize; // Maximum camera size
     public Transform player1; // Reference to the first player's transform
     public Transform player2; // Reference to the second player's transform
-
-    public float minCameraSize = 5f; // Minimum camera size
-    public float zoomFactor = 1.5f; // Additional zoom factor to add padding around players
-
+    public float minCameraSize; // Minimum camera size
+    public float zoomFactor; // Additional zoom factor to add padding around players
+    public float cameraHeightOffset; // Additional height offset for the camera
     private Camera mainCamera; // Reference to the Camera component
 
     private void Start()
@@ -26,6 +25,7 @@ public class CameraFollow : MonoBehaviour
 
         // Calculate the desired camera position based on the bounds
         Vector3 desiredPosition = bounds.center - Vector3.forward * 10f;
+        desiredPosition.y += cameraHeightOffset; // Apply the height offset
 
         // Calculate the desired camera size based on the bounds and zoom factor
         float desiredSize = Mathf.Max(bounds.size.x, bounds.size.y) * 0.5f * zoomFactor;

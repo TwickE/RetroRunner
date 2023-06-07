@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 13312, guid: 0000000000000000e000000000000000, type: 0}
   m_Name: Water_Lava Land_3
   m_EditorClassIdentifier: 
-  m_Sprite: {fileID: 801824712, guid: 013a65c53fd3b44098de45a877d80012, type: 3}
+  m_Sprite: {fileID: 1916802652, guid: 4ced731c10e3e4fc7ac4d864971351d5, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_Transform:
     e00: 1
