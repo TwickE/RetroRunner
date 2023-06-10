@@ -15,12 +15,15 @@ EditorBuildSettings:
     path: Assets/Scenes/Level 2.unity
     guid: 63a39d697757b4e7bb76182515e7ef9d
   - enabled: 1
+    path: Assets/Scenes/Level 3.unity
+    guid: b71a347635c8944b38e0705472c92a6f
+  - enabled: 1
     path: Assets/Scenes/End Screen.unity
     guid: 9489904fc553f4310b362bc1b3896c71
   - enabled: 0
-    path: Assets/Pixel Adventure 1/Scenes/StartMenu.unity
-    guid: 894c112e6ae62a547867fa94bf5e488f
+    path: 
+    guid: 00000000000000000000000000000000
   - enabled: 0
-    path: Assets/Pixel Adventure 1/Scenes/End.unity
-    guid: 06732993028817e4abe3a28c0939fe6a
+    path: 
+    guid: 00000000000000000000000000000000
   m_configObjects: {}
