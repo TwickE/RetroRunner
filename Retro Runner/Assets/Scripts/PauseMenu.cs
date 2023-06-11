@@ -18,6 +18,17 @@ public class PauseMenu : MonoBehaviour
     void Start()
     {
         buttonImage = targetButton.image; // Get the Image component of the button
+
+        if(AudioListener.volume == 1)
+        {
+            isMuted = false;
+            buttonImage.sprite = image1;
+        }
+        else 
+        {
+            isMuted = true;
+            buttonImage.sprite = image2;
+        }
     }
 
     public void Pause()
