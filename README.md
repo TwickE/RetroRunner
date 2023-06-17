@@ -17,20 +17,18 @@ Level 5
 ![Login Screen](https://github.com/TwickE/ReadmeImages/blob/main/RetroRunner5.png?raw=true)
 
  * **Player 1**
- 
     * Move to the left: A
     * Move to the right: D
     * Jump: W
     * Special Habilitie: Walk on Lava without dying
 
 * **Player 2**
-
     * Move to the left: Left Arrow
     * Move to the right: Right Arrows
     * Jump: Up Arrow
     * Special Habilitie: Walk on Water without dying
 
 * **Secondary Features**
-
-    * Colects coins and counts them for each player
-    * Wich level has a timer that counts the time players take to finish the level
+    * Colects coins and counts them for each player(top left corner of the screen)
+    * Wich level has a timer that counts the time players take to finish the level(top middle of the screen)
+    * Pause menu where is possible to mute, unmute and continue the game(top right corener of the screen)
